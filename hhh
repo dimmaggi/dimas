@@ -1,0 +1,20 @@
+#!/bin/bash
+mkdir dog
+read -p "int repository: " finger
+cd /home/dima/dog
+git clone $finger
+mkdir /home/dima/hy
+chmod -R 700 /home/dima/dog/dimas/
+mv /home/dima/dog/dimas/ /home/dima/hy/
+rm -rf /home/dima/dog
+echo "lab 1 done"
+#!/bin/bash
+mkdir dog
+read -p "int repository: " finger
+cd ./dog
+git clone $finger
+mkdir ../hy
+chmod -R 700 ./dimas
+mv ./dimas ../hy
+rm -rf ../dog
+echo "lab 1 done"
